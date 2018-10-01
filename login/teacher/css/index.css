@@ -1,0 +1,28 @@
+@import url("reset.css");
+
+@font-face {
+    font-family: derrickeddfont;
+    src: url("../../../system/fonts/helvetica.otf") format("truetype");
+}
+
+body{font-family:derrickeddfont,sans;font-size:14px;background-color:#33333f;}
+
+#frame{}
+#login-box{padding:10px;text-align:center;padding-top:80px;}
+#login-box h1{padding:5px;color:#fff;font-size:23px;}
+#login-box h2{padding:5px;font-weight:lighter;color:#fff;font-size:20px;}
+#login-box a{color:#222;text-decoration:none;}
+#login-box input{padding:10px;margin:3px;width:250px;border-radius:3px;border:solid 1px #33333f;}
+.login-button{width:270px!important;background-color:#bc3226;color:white;margin-top:20px!important;border:solid 1px #44444f;}
+.login-button:hover{cursor:pointer;background-color:#44444f;color:white;}
+.reset{padding:10px;font-size:13px;color:#fff!important;}
+.reset a{color:#fff!important;padding:10px;}
+
+#accordion{width:300px;margin-left:auto;margin-right:auto;}
+#accordion div{background-color:#44444f!important;border:none;}
+#accordion h3{background-color:#44444f!important;color:#fff;border:none;padding:15px;}
+#accordion input{cursor:pointer;background-color:#bc3226;color:#fff;}
+#accordion input:hover{background-color:#fff;color:#222;}
+
+#displayerror{padding:5px;;font-size:13px;color:red;}
+#displayerror p{}
